@@ -14,3 +14,59 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navbar h1 {
+  padding-right: 1rem;
+}
+
+.navbar .navbar__left,
+.navbar .navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar__cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: calc(100% / 2);
+  margin-bottom: 50px;
+}
+
+.product .product__img {
+  height: 300px;
+  width: auto;
+}
+
+.product .product__stars {
+  margin-top: 20px;
+}
